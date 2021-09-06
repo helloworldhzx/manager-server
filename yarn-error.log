@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hzx\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mongoose -S
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;%YARN_HOME%\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\Program Files\JetBrains\WebStorm 2018.2.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\nodejs\;C:\Users\hzx\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\hzx\AppData\Local\Programs\Python\Python39\;C:\Users\hzx\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2018.2.1\bin;C:\Users\hzx\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hzx\AppData\Local\BypassRuntm;C:\Users\hzx\AppData\Local\Android\Sdk\tools;C:\Users\hzx\AppData\Local\Android\Sdk\platform-tools;C:\project\flutter\flutter_windows_v1.9.1+hotfix.2-stable\flutter\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\hzx\AppData\Roaming\npm;C:\Users\hzx\AppData\Local\Yarn\bin\koa2;
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  14.15.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\hzx\AppData\Local\Yarn\Cache\v4\npm-ms-2.1.3-574c8138ce1d2b5861f0b44579dbadd60c6615b2\node_modules\ms\index.js' -> 'C:\project\vue项目\vue3-koa2\manager-server\node_modules\koa-static\node_modules\ms\index.js'
+
+npm manifest: 
+  {
+    "name": "manager-server",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "node bin/www",
+      "dev": "./node_modules/.bin/nodemon bin/www",
+      "prd": "pm2 start bin/www",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "debug": "^4.1.1",
+      "koa": "^2.7.0",
+      "koa-bodyparser": "^4.2.1",
+      "koa-convert": "^1.2.0",
+      "koa-json": "^2.0.2",
+      "koa-logger": "^3.2.0",
+      "koa-onerror": "^4.1.0",
+      "koa-router": "^7.4.0",
+      "koa-static": "^5.0.0",
+      "koa-views": "^6.2.0",
+      "log4js": "^6.3.0",
+      "pug": "^2.0.3"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
